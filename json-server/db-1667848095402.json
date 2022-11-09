@@ -1,0 +1,77 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Brownie com sorvete de menta",
+      "descricao": "Brownie, sorvete de menta e calda de chocolate.",
+      "preco": 39.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Tartalete de mousse de chocolate com frutas vermelhas",
+      "descricao": "Tartalete, mousse de chocolate, framboesa, morango, amora, mirtilo e calda de caramelo.",
+      "preco": 39.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 3,
+      "nome": "Verrine de abacaxi",
+      "descricao": "Creme de chocolate branco, abacaxi em calda, mousse de baunilha, farofa doce crocante e creme de avelã.",
+      "preco": 39.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 4,
+      "nome": "Panna Cotta de iogurte com maracujá",
+      "descricao": "Panna cotta de iogurte e calda de maracujá.",
+      "preco": 39.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 5,
+      "nome": "Tripé de doces",
+      "descricao": "2 quindins, 2 mil folhas recheadas com doce de leite, 2 mini eclairs, 2 mini tartaletes com frutas da estação, 2 mini cheesecakes com calda de goiaba, 2 fatias de bolo, 2 brigadeiros de chocolate belga, 2 bombons de chocolate branco",
+      "preco": 80.5,
+      "categoria_id": 2
+    },
+    {
+      "id": 6,
+      "nome": "Suco de laranja",
+      "descricao": "",
+      "preco": 19.5,
+      "categoria_id": 2
+    },
+    {
+      "id": 7,
+      "nome": "Suco de melancia",
+      "descricao": "",
+      "preco": 19.5,
+      "categoria_id": 2
+    },
+    {
+      "id": 8,
+      "nome": "Café espresso",
+      "descricao": "",
+      "preco": 16.5,
+      "categoria_id": 2
+    },
+    {
+      "id": 9,
+      "nome": "Chá",
+      "descricao": "",
+      "preco": 16.5,
+      "categoria_id": 2
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Almoço executivo"
+    },
+    {
+      "id": 2,
+      "nome": "Chá da tarde"
+    }
+  ]
+}
