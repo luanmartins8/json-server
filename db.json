@@ -118,10 +118,9 @@
       "id": 4,
       "nome": "Luan Martins",
       "Função": "Cumin",
-      "Entrada": "10h",
-      "Saída": "16h",
       "categoria_id": 4
     }
+    
   ],
 
   "categorias": [
