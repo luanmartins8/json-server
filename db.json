@@ -99,25 +99,21 @@
     {
       "id": 1,
       "nome": "Wesley Nobre",
-      "Função": "Maitre",
       "categoria_id": 4
     },
     {
       "id": 2,
       "nome": "Pedro Nobre",
-      "Função": "Garçon",
       "categoria_id": 4
     },
     {
       "id": 3,
       "nome": "Marcos Borges",
-      "Função": "Garçon",
       "categoria_id": 4
     },
     {
       "id": 4,
       "nome": "Luan Martins",
-      "Função": "Cumin",
       "categoria_id": 4
     }
     
