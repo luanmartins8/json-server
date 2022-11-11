@@ -1,109 +1,145 @@
 {
-    "produtos": [
-      {
-        "id": 1,
-        "nome": "Brownie com sorvete de menta",
-        "descricao": "Brownie, sorvete de menta e calda de chocolate.",
-        "preco": 36.5,
-        "categoria_id": 1
-      },
-      {
-        "id": 2,
-        "nome": "Tartalete de mousse de chocolate com frutas vermelhas",
-        "descricao": "Tartalete, mousse de chocolate, framboesa, morango, amora, mirtilo e calda de caramelo.",
-        "preco": 36.5,
-        "categoria_id": 1
-      },
-      {
-        "id": 3,
-        "nome": "Verrine de abacaxi",
-        "descricao": "Creme de chocolate branco, abacaxi em calda, mousse de baunilha, farofa doce crocante e creme de avelã.",
-        "preco": 36.5,
-        "categoria_id": 1
-      },
-      {
-        "id": 4,
-        "nome": "Panna Cotta de iogurte com maracujá",
-        "descricao": "Panna cotta de iogurte e calda de maracujá.",
-        "preco": 36.5,
-        "categoria_id": 1
-      },
-      {
-        "id": 5,
-        "nome": "Tripé de doces",
-        "descricao": "2 quindins, 2 mil folhas recheadas com doce de leite, 2 mini eclairs, 2 mini tartaletes com frutas da estação, 2 mini cheesecakes com calda de goiaba, 2 fatias de bolo, 2 brigadeiros de chocolate belga, 2 bombons de chocolate branco",
-        "preco": 80.5,
-        "categoria_id": 2
-      },
-      {
-        "id": 6,
-        "nome": "Suco de laranja",
-        "descricao": "",
-        "preco": 19.5,
-        "categoria_id": 2
-      },
-      {
-        "id": 7,
-        "nome": "Suco de melancia",
-        "descricao": "",
-        "preco": 19.5,
-        "categoria_id": 2
-      },
-      {
-        "id": 8,
-        "nome": "Café espresso",
-        "descricao": "",
-        "preco": 16.5,
-        "categoria_id": 2
-      },
-      {
-        "id": 9,
-        "nome": "Chá",
-        "descricao": "",
-        "preco": 16.5,
-        "categoria_id": 2
-      },
-      {
-        "id": 10,
-        "nome": "Moulin Rouge",
-        "descricao": "Frutas vermelhas cozidas no vinho tinto, sorvete de gengibre e calda de chocolate.",
-        "preco": 40,
-        "categoria_id": 3
-      },
-      {
-        "id": 11,
-        "nome": "Petit Gateau de doce de leite",
-        "descricao": "Massa de doce de leite, recheio de doce de leite, sorvete de baunilha e calda de caramelo.",
-        "preco": 45,
-        "categoria_id": 3
-      },
-      {
-        "id": 12,
-        "nome": "Tart Smith",
-        "descricao": "Tartalete, maçã verde em calda, dome de mousse de baunilha com glaçagem verde espelhada.",
-        "preco": 45,
-        "categoria_id": 3
-      },
-      {
-        "id": 13,
-        "nome": "Luís XV",
-        "descricao": "Mousse de chocolate, crocante de avelãs, coberto com glaçagem de chocolate meio amargo, sorvete de doce de leite e calda de caramelo",
-        "preco": 45,
-        "categoria_id": 3
-      }
-    ],
-    "categorias": [
-      {
-        "id": 1,
-        "nome": "Almoço executivo"
-      },
-      {
-        "id": 2,
-        "nome": "Chá da tarde"
-      },
-      {
-        "id": 3,
-        "nome": "Jantar"
-      }
-    ]
-  }
+  "Pratos": [
+    {
+      "id": 1,
+      "nome": "Risotto ao Funghi",
+      "descricao": "Arroz arbóreo, queijo parmesão, molho funghi.",
+      "preco": 41.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Fettuccine de frutos-do-mar",
+      "descricao": "Massa, camarões, mexilhões, vieiras e lagostim na manteiga de alho e ervas.",
+      "preco": 45.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 3,
+      "nome": "Grigliata",
+      "descricao": "Denver steak, galeto, cordeiro, lagosta, camarões, cebola roxa, tomate e pimentões na brasa. Arroz, feijão preto e farofa de panko com ervas acompanham.",
+      "preco": 169,
+      "categoria_id": 1
+    },
+    {
+      "id": 4,
+      "nome": "Risotto de picadinho carioca",
+      "descricao": "Arroz arbóreo, picadinho do filé mignon com molho madeira, parmesão, ovo pochê e farofa de panko com ervas",
+      "preco": 41.5,
+      "categoria_id": 1
+    }
+    
+  ],
+
+  "Sobremesas": [
+    {
+      "id": 1,
+      "nome": "Brownie com sorvete de menta",
+      "descricao": "Brownie, sorvete de menta e calda de chocolate.",
+      "preco": 36.5,
+      "categoria_id": 2
+    },
+    {
+      "id": 2,
+      "nome": "Tartalete de mousse de chocolate com frutas vermelhas",
+      "descricao": "Tartalete, mousse de chocolate, framboesa, morango, amora, mirtilo e calda de caramelo.",
+      "preco": 36.5,
+      "categoria_id": 2
+    },
+    {
+      "id": 3,
+      "nome": "Verrine de abacaxi",
+      "descricao": "Creme de chocolate branco, abacaxi em calda, mousse de baunilha, farofa doce crocante e creme de avelã.",
+      "preco": 36.5,
+      "categoria_id": 2
+    },
+    {
+      "id": 4,
+      "nome": "Panna Cotta de iogurte com maracujá",
+      "descricao": "Panna cotta de iogurte e calda de maracujá.",
+      "preco": 36.5,
+      "categoria_id": 2
+    }
+    
+  ],
+
+  "Bebidas": [
+    {
+      "id": 1,
+      "nome": "Refrigerante",
+      "descricao": "Lata 300ml",
+      "preco": 8.5,
+      "categoria_id": 3
+    },
+    {
+      "id": 2,
+      "nome": "Sucos",
+      "descricao": "Laranja, melancia ou limonada 300ml",
+      "preco": 12.5,
+      "categoria_id": 3
+    },
+    {
+      "id": 3,
+      "nome": "Água",
+      "descricao": "Garrafa 510ml",
+      "preco": 6.5,
+      "categoria_id": 3
+    },
+    {
+      "id": 4,
+      "nome": "Café Espresso",
+      "descricao": "Xícara 150ml",
+      "preco": 10.5,
+      "categoria_id": 3
+    }
+    
+  ],
+
+  "Garçons": [
+    {
+      "id": 1,
+      "nome": "Wesley Nobre",
+      "Função": "Maitre",
+      "categoria_id": 4
+    },
+    {
+      "id": 2,
+      "nome": "Pedro Nobre",
+      "Função": "Garçon",
+      "categoria_id": 4
+    },
+    {
+      "id": 3,
+      "nome": "Marcos Borges",
+      "Função": "Garçon",
+      "categoria_id": 4
+    },
+    {
+      "id": 4,
+      "nome": "Luan Martins",
+      "Função": "Cumin",
+      "Entrada": "10h",
+      "Saída": "16h",
+      "categoria_id": 4
+    }
+  ],
+
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Produtos"
+    },
+    {
+      "id": 2,
+      "nome": "Sobremesas"
+    },
+    {
+      "id": 3,
+      "nome": "Bebidas"
+    },
+    {
+      "id": 4,
+      "nome": "Garçons"
+    }
+  ]
+}
